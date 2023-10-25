@@ -1,0 +1,6 @@
+lang: "en"
+base-url: "https://itsksrof.com"
+theme: "bloggo"
+posts-limit: 10
+pages: ["index", "about", "archive", "404"]
+dirs: ["assets", "css"]

@@ -1,0 +1,13 @@
+<!-- SPDX-License-Identifier: MIT -->
+{{define "nav"}}
+<nav>
+    <ul>
+        <li><a href="{{.BaseURL}}/index.html" class="contrast">Home</a></li>
+        <li><a href="{{.BaseURL}}/about.html" class="contrast">About</a></li>
+        <li><a href="{{.BaseURL}}/archive.html" class="contrast">Archive</a></li>
+    </ul>
+    <ul dir="rtl">
+        <li><a id="theme-toggle">🌙</a></li>
+    </ul>
+</nav>
+{{end}}

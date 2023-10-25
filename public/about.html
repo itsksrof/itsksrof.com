@@ -1,0 +1,100 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="robots" content="index, follow">
+        <meta name="keywords" content="about, blog, engineer, engineering, tech, technology, itsksrof">
+        <meta name="description" content="Hey! This is Kevin, I&#39;m a Senior Software Engineer working mainly on stuff such as distributed systems, identity management, and developer experience. Through all of this years many technologies have passed through my hands but only a select few have found a place in my toolbox, yet I never say no to the possibility of exploring a new language, framework or tool as it helps me to keep my feet on the ground, and acknowledge the breadth of this field and the impossibleness of knowing it all.">
+        <meta name="author" content="itsksrof">
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://itsksrof.com/index.html" />
+        <meta property="og:title" content="About | Kevin Suñer" />
+        <meta property="og:description" content="Hey! This is Kevin, I&#39;m a Senior Software Engineer working mainly on stuff such as distributed systems, identity management, and developer experience. Through all of this years many technologies have passed through my hands but only a select few have found a place in my toolbox, yet I never say no to the possibility of exploring a new language, framework or tool as it helps me to keep my feet on the ground, and acknowledge the breadth of this field and the impossibleness of knowing it all." />
+        <meta property="og:image" content="https://itsksrof.com/assets/cover.png"/>
+        <meta name="twitter:title" content="About | Kevin Suñer"/>
+        <meta name="twitter:description" content="Hey! This is Kevin, I&#39;m a Senior Software Engineer working mainly on stuff such as distributed systems, identity management, and developer experience. Through all of this years many technologies have passed through my hands but only a select few have found a place in my toolbox, yet I never say no to the possibility of exploring a new language, framework or tool as it helps me to keep my feet on the ground, and acknowledge the breadth of this field and the impossibleness of knowing it all."/>
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:image" content="https://itsksrof.com/assets/cover.png"/>
+        
+        <link rel="canonical" href="https://itsksrof.com/index.html">
+        <link rel="stylesheet" href="https://itsksrof.com/css/pico.css">
+        <link rel="stylesheet" href="https://itsksrof.com/css/style.css">
+        <link rel="icon" href="https://itsksrof.com/assets/favicon.ico">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://itsksrof.com/assets/favicon-32x32.png">
+        <link rel="apple-touch-icon" href="https://itsksrof.com/assets/apple-touch-icon.png">
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                var toggle = document.getElementById("theme-toggle");
+                var storedTheme = localStorage.getItem("theme") || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+                var storedIcon = localStorage.getItem("theme-icon") || (storedTheme === "dark" ? "☀️" : "🌙");
+                if (storedTheme) {
+                    document.documentElement.setAttribute("data-theme", storedTheme);
+                    toggle.innerHTML = storedIcon;
+                }
+
+                toggle.onclick = function() {
+                    var currentTheme = document.documentElement.getAttribute("data-theme");
+                    var targetTheme = "light";
+                    var targetIcon = "🌙";
+
+                    if (currentTheme === "light") {
+                        targetTheme = "dark";
+                        targetIcon = "☀️";
+                    }
+
+                    document.documentElement.setAttribute("data-theme", targetTheme);
+                    toggle.innerHTML = targetIcon;
+                    localStorage.setItem("theme", targetTheme);
+                    localStorage.setItem("theme-icon", targetIcon);
+                }
+            })
+        </script>
+		<title>About | Kevin Suñer</title>
+	</head>
+    <body>
+        <main class="container">
+
+<section>
+    
+<nav>
+    <ul>
+        <li><a href="https://itsksrof.com/index.html" class="contrast">Home</a></li>
+        <li><a href="https://itsksrof.com/about.html" class="contrast">About</a></li>
+        <li><a href="https://itsksrof.com/archive.html" class="contrast">Archive</a></li>
+    </ul>
+    <ul dir="rtl">
+        <li><a id="theme-toggle">🌙</a></li>
+    </ul>
+</nav>
+
+    <h1>About</h1>
+<p>Hey! This is Kevin, I'm a Senior Software Engineer working mainly on stuff such as distributed systems, identity management, and developer experience. Through all of this years many technologies have passed through my hands but only a select few have found a place in my toolbox, yet I never say no to the possibility of exploring a new language, framework or tool as it helps me to keep my feet on the ground, and acknowledge the breadth of this field and the impossibleness of knowing it all.</p>
+<p>Aside from my career I live to enjoy what really matters to me. Thus my rationale way of thinking is; first comes life, then comes work. Because in all honesty how can I be on top of my game, when my life is a train-wreck. So most of my time off-screen is devoted to reading, hiking and hopefully in the near future, playing an instrument.</p>
+<p>That's pretty much it, I hope that this small brushstroke of how I am, and how I see things helps you to know me a bit better. Send me an email at <strong>itsksrof.contact</strong> at <strong>proton.me</strong> if you have any questions, want to chat, or if you want to buy me a beer.</p>
+<p>Cheers!</p>
+<ul>
+<li>Kevin</li>
+</ul>
+
+</section>
+
+            <section>
+                <small>
+                    Made by 
+                    <a href="https://github.com/itsksrof" class="contrast">Kevin Suñer</a> 
+                    &#183;
+                    Powered by
+                    <a href="https://github.com/itsksrof/bloggo" class="contrast">Bloggo</a> 
+                    &#183; 
+                    Code licensed 
+                    <a href="https://github.com/itsksrof/bloggo/blob/master/LICENSE" class="contrast">MIT</a>
+                </small>
+            </section>
+        </main>
+    </body>
+</html>
+
